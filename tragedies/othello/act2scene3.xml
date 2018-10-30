@@ -1,0 +1,25 @@
+<g character="Shakespeare"><v verb="says">
+  <loc>Outside the guard room:</loc>
+  <enter>
+    <c name="Othello" />
+    <c name="Desdemona" />
+    <c name="Cassio" />
+    <c name="Attendants" />
+  </enter>
+  <g character="Othello">
+    <a line="1" />
+    <t>Shows familiarity with <c name="Cassio"><q>Good Michael</q></c> outside what would be expected for officialities.</t>
+    <v verb="instructs" to="Cassio">
+      <q>look you to the guard tonight</q>; <c name="Cassio" /> is not to be involved in the festivities.
+    </v>
+
+    <a line="2" />
+    <a line="3" />
+    <v verb="instructs" to="Attendants">
+      Let's restrain ourselves to not celebrate excessively.
+    </v>
+    <v verb="thinks">
+      <c name="Othello" /> doesn't want a conflict at <i>this</i> party.
+    </v>
+  </g>
+</v></g>
