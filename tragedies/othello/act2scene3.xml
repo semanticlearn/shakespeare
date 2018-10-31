@@ -16,10 +16,44 @@
     <a line="2" />
     <a line="3" />
     <v verb="instructs" to="Attendants">
-      Let's restrain ourselves to not celebrate excessively.
+      Let's restrain ourselves to modest celebration; don't get drunk or anything (don't <q>out-sport discretion</q>).
     </v>
-    <v verb="thinks">
-      <c name="Othello" /> doesn't want a conflict at <i>this</i> party.
+    <t><c name="Othello" /> doesn't want a conflict at <i>this</i> party.</t>
+  </g>
+  <g character="Cassio">
+    <v verb="says" to="Othello">
+      <a line="4" />
+      <t><c name="Iago" /> knows what to do(?) <todo /></t>
+      <a line="5" />
+      <a line="6" />
+      <t>Nevertheless, I'll personally look to it.</t>
     </v>
   </g>
+  <g character="Othello">
+    <v verb="says" to="Cassio">
+      <t><q>Iago is most honest.</q> Here, <q>honest</q> means reliable,
+        but the constant choice of <q>honest</q> over other words is definitely a literary technique.</t>
+      <t><q>Michael, good night.</q> (I won't see you again until tomorrow.)</t>
+      <t>Tomorrow, ASAP, <a line="7" /> I'd like to talk to you.</t>
+    </v>
+    <v verb="instructs" to="Desdemona">
+      <q>Come, my dear love,</q>
+    </v>
+    <a line="9" />
+    <a line="10" />
+    <v verb="says" to="Desdemona">
+      We've married, but have yet to consummate our marriage (marriage's <q>fruit</q>).
+    </v>
+    <v verb="says" to="all">
+      <q>Good night.</q>
+    </v>
+  </g>
+  <exeunt>
+    <c name="Othello" />
+    <c name="Desdemona" />
+    <c name="Attendants" />
+  </exeunt>
+
+  <enter name="Iago" />
+  <a line="12" />
 </v></g>
