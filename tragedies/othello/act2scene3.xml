@@ -23,7 +23,12 @@
   <g character="Cassio">
     <v verb="says" to="Othello">
       <a line="4" />
-      <t><c name="Iago" /> knows what to do(?) <todo /></t>
+      <t><c name="Iago" /> knows what to do.</t>
+    </v>
+    <v verb="implies" to="Othello">
+      <c name="Iago" /> is on the watch too.
+    </v>
+    <v verb="says" to="Othello">
       <a line="5" />
       <a line="6" />
       <t>Nevertheless, I'll personally look to it.</t>
@@ -56,4 +61,69 @@
 
   <enter name="Iago" />
   <a line="12" />
+  <g character="Cassio">
+    <v verb="says" to="Iago">
+      <t><q>Welcome, <c name="Iago" /></q> (a friendly greeting).</t>
+    </v>
+    <v verb="instructs" to="Iago">
+      <t><q>We must</q> go <q>to the watch.</q></t>
+    </v>
+  </g>
+  <g character="Iago">
+    <a line="13" />
+    <v verb="says" to="Cassio">
+      Not for another hour; it's not 10:00 yet.
+    </v>
+    <v verb="implies" to="Cassio">
+      <g character="Othello">
+        <v verb="says" to="Iago">
+          The watch should begin at 10:00
+        </v>
+        <t>We don't know whether this is true; Iago is not trustworthy and it's not stated. <todo>Check.</todo></t>
+      </g>
+    </v>
+    <v verb="says" to="Cassio">
+      <a line="13" />
+      <a line="14" />
+      <t><c name="Othello" /> <q>cast us early</q> because he loves <c name="Desdemona" /></t>
+      <a line="15" />
+      <t>We mustn't blame <c name="Desdemona" />(?) <todo /> because of that;</t>
+      <a line="15" />
+      <a line="16" />
+      <t><c name="Othello" /> hasn't yet had sex with <c name="Desdemona">her</c>, and she is <q>sport for Jove</q>.</t>
+    </v>
+    <v verb="thinks">
+      <c name="Iago" /> thinks of <c name="Desdemona" /> as a sexual object.
+    </v>
+  </g>
+  <a line="17" />
+  <g character="Cassio">
+    <v verb="says" to="Iago">
+      <q><c name="Desdemona">She</c>'s a most exquisite lady.</q>
+    </v>
+    <t><c name="Cassio" /> has fallen into <c name="Iago" />'s trap. <c name="Iago" /> can now tell <c name="Othello" />
+      that <c name="Cassio" /> has been talking about <c name="Desdemona" /> like this and he can't deny it.
+      Iago will spin it, of course. (?)<todo /></t>
+    <t>This conversation acts as inspiration for Iago's later scheme? <todo /></t>
+  </g>
+  <a line="18" />
+  <g character="Iago">
+    <v verb="says" to="Cassio">
+      And I'm sure she's <q>full of game</q> (very sexually active).
+    </v>
+  </g>
+  <a line="19" />
+  <g character="Cassio">
+    <v verb="says" to="Iago">
+      <q>Indeed <c name="Desdemona">she</c> is a most fresh</q> (inexperienced / youthful) <q>and delicate creature.</q>
+    </v>
+    <t><c name="Cassio" /> is, perhaps deliberately, interpreting <c name="Iago" />'s words in the nicest possible way.</t>
+  </g>
+  <a line="20" />
+  <a line="21" />
+  <g character="Iago">
+    <v verb="says" to="Cassio">
+      
+    </v>
+  </g>
 </v></g>
